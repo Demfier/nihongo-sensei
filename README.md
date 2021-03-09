@@ -18,4 +18,7 @@ need to guess its romaji (English transliteration of a kana)
     options. You can also use 'all' to practice *all* the kanas in a script(s)!
 
     **TODO:** Currently only supports the "a" column in Hiragana.
-    Add support for all the columns!
+    Add support for all the columns (See [#1][i1] [#3][i3])!
+
+[i1]: https://github.com/user/repo/issues/1
+[i3]: https://github.com/user/repo/issues/3
