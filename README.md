@@ -13,7 +13,9 @@ need to guess its romaji (English transliteration of a kana)
     python kana.py --column columns --script script
     ```
     Here, `columns` string denotes the columns to practice as comma seperated values.
-    For instance, `--columns a,k` means the 'a' and 'k' columns. You can also use 'all'
-    to practice *all* the kanas!
+    For instance, `--columns a,k` means the 'a' and 'k' columns.
+    `scripts` follows similar pattern with 'hiragana' and 'katakana' as the
+    options. You can also use 'all' to practice *all* the kanas in a script(s)!
 
-    **TODO:** Currently only supports the "a" column in Hiragana. Add support for all
+    **TODO:** Currently only supports the "a" column in Hiragana.
+    Add support for all the columns!
