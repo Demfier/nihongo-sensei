@@ -1,5 +1,6 @@
 import argparse
 import numpy as np
+from collections import Counter
 
 from key import COLUMNS
 
@@ -40,12 +41,13 @@ def main():
         help='Columns to practice e.g. a/k/s (default: a)')
     parser.add_argument('-s', '--script', default='hiragana', type=str,
         help='Scripts to include e.g. hiragana/katana/kanji (default: hiragana)')
+    parser.add_argument('-n', '--number', default=30, type=int,
+        help='Number of kanas to practice (default: 30)')
     args = parser.parse_args()
 
     # answer dictionary
     key = COLUMNS[clean(args.column)][clean(args.script)]
-    to_practice = list(key.keys())
-    np.random.shuffle(to_practice)
+    to_practice = np.random.choice(list(key.keys()), size=args.number)
 
     score = 0
     for kana in to_practice:
