@@ -34,6 +34,24 @@ def evaluate(guess, score, kana, answer_key):
     return evaluate(guess, score, kana, answer_key)
 
 
+def get_kanas(columns_val, scripts_val):
+    """
+    returns all the correct kanas the user wishes to practice based on input
+    arguments columns and scripts
+    """
+    # answer dictionary
+    key = {}
+
+    column_chars = clean(columns_val).split(',')
+    scripts = clean(scripts_val).split(',')
+
+    # fetch all desired kanas
+    for c in column_chars:
+        for s in scripts:
+            key.update(COLUMNS[c][s])
+    return key
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Practice Japanese Kanas in different scripts')
@@ -45,8 +63,8 @@ def main():
         help='Number of kanas to practice (default: 30)')
     args = parser.parse_args()
 
-    # answer dictionary
-    key = COLUMNS[clean(args.column)][clean(args.script)]
+    key = get_kanas(args.column, args.script)
+
     to_practice = np.random.choice(list(key.keys()), size=args.number)
 
     score = 0
