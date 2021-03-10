@@ -18,8 +18,6 @@ need to guess its romaji (English transliteration of a kana)
     options. You can use 'all' to practice *all* the kanas in a script(s)!
     `number` is the number of characters to practice in one setting.
 
-    **TODO:** Currently only supports the "a" column in Hiragana.
-    Add support for all the columns (See [#1][i1] [#3][i3])!
+    **TODO:** Currently only supports the "a" column in Hiragana. (See [#3][i3])!
 
-[i1]: https://github.com/Demfier/nihongo-sensei/issues/1
 [i3]: https://github.com/Demfier/nihongo-sensei/issues/3
