@@ -42,6 +42,7 @@ COLUMNS = {
             'ぬ': {'sound': 'nu', 'as_in': 'noodles'},
             'ね': {'sound': 'ne', 'as_in': 'necromancer'},
             'の': {'sound': 'no', 'as_in': 'nose'},
+            'ん': {'sound': 'n', 'as_in': 'n'},  # technically incorrect column!
             }
         },
     'h': {
@@ -53,4 +54,37 @@ COLUMNS = {
             'ほ': {'sound': 'ho', 'as_in': 'ho-ho-ho'},
             }
         },
+    'm': {
+        'hiragana': {
+            'ま': {'sound': 'ma', 'as_in': 'dogma'},
+            'み': {'sound': 'mi', 'as_in': 'me!'},
+            'む': {'sound': 'mu', 'as_in': 'moo'},
+            'め': {'sound': 'me', 'as_in': 'makeup'},
+            'も': {'sound': 'mo', 'as_in': 'more'},
+            }
+        },
+    'y': {
+        'hiragana': {
+            'や': {'sound': 'ya', 'as_in': 'yak'},
+            'ゆ': {'sound': 'yu', 'as_in': 'unique'},
+            'よ': {'sound': 'yo', 'as_in': 'yo dawg!'},
+            }
+        },
+    'r': {
+        # sadly, this infamous 'r' sounds are tough to write down. tried me best
+        'hiragana': {
+            'ら': {'sound': 'ra', 'as_in': 'mira'},
+            'り': {'sound': 'ri', 'as_in': 'spree'},
+            'る': {'sound': 'ru', 'as_in': 'rule'},
+            'れ': {'sound': 're', 'as_in': 'realm'},
+            'ろ': {'sound': 'ro', 'as_in': 'road'},
+            }
+        },
+    'w': {
+        'hiragana': {
+            'わ': {'sound': 'wa', 'as_in': 'dogma'},
+            'を': {'sound': 'wo', 'as_in': 'more'},
+            }
+        }
     }
+
