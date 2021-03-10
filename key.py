@@ -49,7 +49,8 @@ COLUMNS = {
         'hiragana': {
             'は': {'sound': 'ha', 'as_in': 'hahaha'},
             'ひ': {'sound': 'hi', 'as_in': 'he'},
-            'ふ': {'sound': 'fu/hu', 'as_in': 'hula-fula'},
+            #  going with the more common fu sound and not hu
+            'ふ': {'sound': 'fu', 'as_in': 'full'},
             'へ': {'sound': 'he', 'as_in': 'helen'},
             'ほ': {'sound': 'ho', 'as_in': 'ho-ho-ho'},
             }
@@ -87,4 +88,3 @@ COLUMNS = {
             }
         }
     }
-

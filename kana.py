@@ -41,9 +41,16 @@ def get_kanas(columns_val, scripts_val):
     """
     # answer dictionary
     key = {}
+    columns_val = clean(columns_val)
+    if columns_val == 'all':
+        column_chars = COLUMNS.keys()
+    else:
+        column_chars = columns_val.split(',')
 
-    column_chars = clean(columns_val).split(',')
-    scripts = clean(scripts_val).split(',')
+    if scripts_val == 'all':
+        scripts = ['hiragana', 'katakana']
+    else:
+        scripts = clean(scripts_val).split(',')
 
     # fetch all desired kanas
     for c in column_chars:
@@ -55,12 +62,12 @@ def get_kanas(columns_val, scripts_val):
 def main():
     parser = argparse.ArgumentParser(
         description='Practice Japanese Kanas in different scripts')
-    parser.add_argument('-c', '--column', default='a', type=str,
-        help='Columns to practice e.g. a/k/s (default: a)')
+    parser.add_argument('-c', '--column', default='all', type=str,
+        help='Columns to practice e.g. a/k/s (default: all)')
     parser.add_argument('-s', '--script', default='hiragana', type=str,
-        help='Scripts to include e.g. hiragana/katana/kanji (default: hiragana)')
-    parser.add_argument('-n', '--number', default=30, type=int,
-        help='Number of kanas to practice (default: 30)')
+        help='Scripts to include e.g. hiragana/katakana (default: hiragana)')
+    parser.add_argument('-n', '--number', default=50, type=int,
+        help='Number of kanas to practice (default: 50)')
     args = parser.parse_args()
 
     key = get_kanas(args.column, args.script)
