@@ -20,8 +20,7 @@ need to guess its romaji (English transliteration of a kana)
     `main-hiragana` is an optional flag. Specify it to only practice the main kanas
     and ignore dakuten and combo hiraganas.
 
-    **TODO:** Currently only supports main kana.
-    Combo Hiragana, and Katakana support (See [#3][i3] [#6][i6])!
+    **TODO:** Currently only supports Hiragana.
+    Add Katakana support (See [#3][i3])!
 
 [i3]: https://github.com/Demfier/nihongo-sensei/issues/3
-[i6]: https://github.com/Demfier/nihongo-sensei/issues/6

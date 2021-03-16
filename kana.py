@@ -18,7 +18,7 @@ def evaluate(guess, score, kana, answer_key):
     """
     evaluate a guess from the user
     """
-    if guess == answer_key[kana]['sound']:
+    if guess == answer_key[kana]['sound'] or guess in answer_key[kana]['sound']:
         print('Correct!')
         return score+1
     response = clean(input('Nope. Try again ([y]/n)? '))
