@@ -8,6 +8,15 @@ COLUMNS = {
                 'え': {'sound': 'e', 'as_in': 'egg/exotic'},
                 'お': {'sound': 'o', 'as_in': 'ooh!'},
                 }
+            },
+        'katakana' : {
+            'main': {
+                'ア' : {'sound': 'a', 'as_in': 'car'},
+                'イ' : {'sound': 'i', 'as_in': 'eagle'},
+                'ウ' : {'sound': 'u', 'as_in': 'loop'},
+                'エ' : {'sound': 'e', 'as_in': 'egg/exotic'},
+                'オ' : {'sound': 'o', 'as_in': 'opera'}
+                }
             }
         },
     'k': {
@@ -33,6 +42,15 @@ COLUMNS = {
                 'ぎゃ': {'sound': 'gya'},
                 'ぎゅ': {'sound': 'gyu'},
                 'ぎょ': {'sound': 'gyo'},
+                }
+            },
+        'katakana': {
+            'main': {
+                'カ' : {'sound': 'ka', 'as_in': 'cannes'},
+                'キ' : {'sound': 'ki', 'as_in': 'key'},
+                'ク' : {'sound': 'ku', 'as_in': 'cook'},
+                'ケ' : {'sound': 'ke', 'as_in': 'keg'},
+                'コ' : {'sound': 'ko', 'as_in': 'cold'}
                 }
             }
         },
@@ -60,6 +78,15 @@ COLUMNS = {
                 'じゅ': {'sound': ['ju', 'jyu']},
                 'じょ': {'sound': ['jo', 'jyo']},
                 }
+            },
+        'katakana': {
+            'main': {
+                'サ' : {'sound': 'sa', 'as_in': 'cannes'},
+                'シ' : {'sound': 'shi', 'as_in': 'sheet'},
+                'ス' : {'sound': 'su', 'as_in': 'suit'},
+                'セ' : {'sound': 'se', 'as_in': 'sexy'},
+                'ソ' : {'sound': 'so', 'as_in': 'soul'}
+                }
             }
         },
     't': {
@@ -85,6 +112,15 @@ COLUMNS = {
                 'ぢゃ': {'sound': 'dya'},
                 'ぢゅ': {'sound': 'dyu'},
                 'ぢょ': {'sound': 'dyo'},
+                }
+            },
+        'katakana': {
+            'main': {
+                'タ' : {'sound': 'ta', 'as_in': 'martha'},
+                'チ' : {'sound': 'chi', 'as_in': 'chin'},
+                'ツ' : {'sound': 'tsu', 'as_in': 'blitz'},
+                'テ' : {'sound': 'te', 'as_in': 'ten'},
+                'ト' : {'sound': 'to', 'as_in': 'thoap'}
                 }
             }
         },
