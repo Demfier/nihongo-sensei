@@ -139,6 +139,16 @@ COLUMNS = {
                 'にゅ': {'sound': 'nyu'},
                 'にょ': {'sound': 'nyo'},
                 }
+            },
+        'katakana': {
+            'main': {
+                'ナ' : {'sound': 'na', 'as_in': 'nambia'},
+                'ニ' : {'sound': 'ni', 'as_in': 'needle'},
+                'ヌ' : {'sound': 'nu', 'as_in': 'noodles'},
+                'ネ' : {'sound': 'ne', 'as_in': 'necromancer'},
+                'ノ' : {'sound': 'no', 'as_in': 'nose'},
+                'ン' : {'sound': 'n', 'as_in': 'n'}
+                }
             }
         },
     'h': {
@@ -173,6 +183,15 @@ COLUMNS = {
                 'ぴゅ': {'sound': 'pyu'},
                 'ぴょ': {'sound': 'pyo'},
                 }
+            },
+        'katakana': {
+            'main': {
+                'ハ' : {'sound': 'ha', 'as_in': 'hahaha'},
+                'ヒ' : {'sound': 'hi', 'as_in': 'he'},
+                'フ' : {'sound': ['hu', 'fu'], 'as_in': 'hula-fula'},
+                'ヘ' : {'sound': 'he', 'as_in': 'helen'},
+                'ホ' : {'sound': 'ho', 'as_in': 'ho-ho-ho'}
+                }
             }
         },
     'm': {
@@ -183,20 +202,36 @@ COLUMNS = {
                 'む': {'sound': 'mu', 'as_in': 'moo'},
                 'め': {'sound': 'me', 'as_in': 'makeup'},
                 'も': {'sound': 'mo', 'as_in': 'more'},
-                }
-            },
+                },
             'combo': {
                 'みゃ': {'sound': 'mya'},
                 'みゅ': {'sound': 'myu'},
                 'みょ': {'sound': 'myo'},
                 }
+            },
+        'katakana': {
+            'main': {
+                'マ': {'sound': 'ma', 'as_in': 'dogma'},
+                'ミ': {'sound': 'mi', 'as_in': 'me!'},
+                'ム': {'sound': 'mu', 'as_in': 'moo'},
+                'メ': {'sound': 'me', 'as_in': 'makeup'},
+                'モ': {'sound': 'mo', 'as_in': 'more'},
+                }
+            }
         },
     'y': {
         'hiragana': {
             'main': {
                 'や': {'sound': 'ya', 'as_in': 'yak'},
                 'ゆ': {'sound': 'yu', 'as_in': 'unique'},
-                'よ': {'sound': 'yo', 'as_in': 'yo dawg!'},
+                'よ': {'sound': 'yo', 'as_in': 'yogurt'},
+                }
+            },
+        'katakana': {
+            'main': {
+                'ヤ': {'sound': 'ya', 'as_in': 'yak'},
+                'ユ': {'sound': 'yu', 'as_in': 'unique'},
+                'ヨ': {'sound': 'yo', 'as_in': 'yogurt'},
                 }
             }
         },
@@ -215,6 +250,15 @@ COLUMNS = {
                 'りゅ': {'sound': 'ryu'},
                 'りょ': {'sound': 'ryo'},
                 }
+            },
+        'katakana': {
+            'main': {
+                'ラ': {'sound': 'ra', 'as_in': 'mira'},
+                'リ': {'sound': 'ri', 'as_in': 'spree'},
+                'ル': {'sound': 'ru', 'as_in': 'rule'},
+                'レ': {'sound': 're', 'as_in': 'realm'},
+                'ロ': {'sound': 'ro', 'as_in': 'road'},
+                }
             }
         },
     'w': {
@@ -222,6 +266,12 @@ COLUMNS = {
             'main': {
                 'わ': {'sound': 'wa', 'as_in': 'dogma'},
                 'を': {'sound': 'wo', 'as_in': 'more'},
+                }
+            },
+        'katakana': {
+            'main': {
+                'ワ': {'sound': 'wa', 'as_in': 'dogma'},
+                'ヲ': {'sound': 'wo', 'as_in': 'more'},
                 }
             }
         }
