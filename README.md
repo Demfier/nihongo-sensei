@@ -10,17 +10,18 @@ A kana will pop up in one of the Japanese scripts (Hiragana/Katakana) and you'll
 need to guess its romaji (English transliteration of a kana)
     - **Usage:**
     ```python3
-    python kana.py --column columns --script scripts --number n --main-hiragana
+    python kana.py --column columns --script scripts --number n --main-kana
     ```
     Here, `columns` string denotes the columns to practice as comma seperated values.
     For instance, `--columns a,k` means the 'a' and 'k' columns.
     `scripts` follows similar pattern with 'hiragana' and 'katakana' as the
     options. You can use 'all' to practice *all* the kanas in a script(s)!
     `number` is the number of characters to practice in one setting.
-    `main-hiragana` is an optional flag. Specify it to only practice the main kanas
+    `main-kana` is an optional flag. Specify it to only practice the main kanas
     and ignore dakuten and combo hiraganas.
 
-    **TODO:** Currently only supports Hiragana.
-    Add Katakana support (See [#3][i3])!
+    **TODO:** Currently supports Hiragana but only main katakanas.
+    Add Katakana combo and dakuten support (See [#9][i9] [#10][i10])!
 
-[i3]: https://github.com/Demfier/nihongo-sensei/issues/3
+[i9]: https://github.com/Demfier/nihongo-sensei/issues/9
+[i10]: https://github.com/Demfier/nihongo-sensei/issues/10
