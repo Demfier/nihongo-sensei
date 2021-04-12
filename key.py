@@ -16,7 +16,17 @@ COLUMNS = {
                 'ウ' : {'sound': 'u', 'as_in': 'loop'},
                 'エ' : {'sound': 'e', 'as_in': 'egg/exotic'},
                 'オ' : {'sound': 'o', 'as_in': 'opera'}
-                }
+                },
+            'combo': {
+                'ヴァ': {'sound': ['bwa', 'va']},
+                'ヴィ': {'sound': ['bwi', 'vi']},
+                'ヴ': {'sound': ['bwu', 'vu']},
+                'ヴェ': {'sound': ['bwe', 've']},
+                'ヴォ': {'sound': ['bwo', 'vo']},
+                'ウィ': {'sound': ['wi', 'ui']},
+                'ウェ': {'sound': ['we', 'ue']},
+                'ウォ': {'sound': ['wo', 'uo']},
+            }
             }
         },
     'k': {
@@ -51,6 +61,14 @@ COLUMNS = {
                 'ク' : {'sound': 'ku', 'as_in': 'cook'},
                 'ケ' : {'sound': 'ke', 'as_in': 'keg'},
                 'コ' : {'sound': 'ko', 'as_in': 'cold'}
+                },
+            'combo': {
+                'キャ': {'sound': 'kya'},
+                'キュ': {'sound': 'kyu'},
+                'キョ': {'sound': 'kyo'},
+                'ギャ': {'sound': 'gya'},
+                'ギュ': {'sound': 'gyu'},
+                'ギョ': {'sound': 'gyo'},
                 }
             }
         },
@@ -86,6 +104,16 @@ COLUMNS = {
                 'ス' : {'sound': 'su', 'as_in': 'suit'},
                 'セ' : {'sound': 'se', 'as_in': 'sexy'},
                 'ソ' : {'sound': 'so', 'as_in': 'soul'}
+                },
+            'combo': {
+                'シャ': {'sound': 'sha'},
+                'シュ': {'sound': 'shu'},
+                'ショ': {'sound': 'sho'},
+                'ジャ': {'sound': ['ja', 'jya']},
+                'ジュ': {'sound': ['ju', 'jyu']},
+                'ジョ': {'sound': ['jo', 'jyo']},
+                'シェ': {'sound': 'she'},
+                'ジェ': {'sound': 'je'},
                 }
             }
         },
@@ -121,6 +149,23 @@ COLUMNS = {
                 'ツ' : {'sound': 'tsu', 'as_in': 'blitz'},
                 'テ' : {'sound': 'te', 'as_in': 'ten'},
                 'ト' : {'sound': 'to', 'as_in': 'thoap'}
+                },
+            'combo': {
+                'チャ': {'sound': 'cha'},
+                'チュ': {'sound': 'chu'},
+                'チョ': {'sound': 'cho'},
+                'ヂャ': {'sound': 'dzya'},
+                'ヂュ': {'sound': 'dzyu'},
+                'ヂョ': {'sound': 'dzyo'},
+                'チェ': {'sound': 'che'},
+                'トゥ': {'sound': 'tu'},
+                'ティ': {'sound': 'ty'},
+                'ドゥ': {'sound': 'du'},
+                'ディ': {'sound': 'dy'},
+                'ツァ': {'sound': 'tsa'},
+                'ツィ': {'sound': 'tsa'},
+                'ツェ': {'sound': 'tsi'},
+                'ツォ': {'sound': 'tso'},
                 }
             }
         },
@@ -148,6 +193,11 @@ COLUMNS = {
                 'ネ' : {'sound': 'ne', 'as_in': 'necromancer'},
                 'ノ' : {'sound': 'no', 'as_in': 'nose'},
                 'ン' : {'sound': 'n', 'as_in': 'n'}
+                },
+            'combo': {
+                'ニャ': {'sound': 'nya'},
+                'ニュ': {'sound': 'nyu'},
+                'ニョ': {'sound': 'nyo'}
                 }
             }
         },
@@ -191,6 +241,21 @@ COLUMNS = {
                 'フ' : {'sound': ['hu', 'fu'], 'as_in': 'hula-fula'},
                 'ヘ' : {'sound': 'he', 'as_in': 'helen'},
                 'ホ' : {'sound': 'ho', 'as_in': 'ho-ho-ho'}
+                },
+            'combo': {
+                'ヒャ': {'sound': 'hya'},
+                'ヒュ': {'sound': 'hyu'},
+                'ヒョ': {'sound': 'hyo'},
+                'ビャ': {'sound': 'bya'},
+                'ビュ': {'sound': 'byu'},
+                'ビョ': {'sound': 'byo'},
+                'ピャ': {'sound': 'pya'},
+                'ピュ': {'sound': 'pyu'},
+                'ピョ': {'sound': 'pyo'},
+                'ファ': {'sound': 'fa'},
+                'フィ': {'sound': 'fi'},
+                'フェ': {'sound': 'fe'},
+                'フォ': {'sound': 'fo'},
                 }
             }
         },
@@ -216,6 +281,11 @@ COLUMNS = {
                 'ム': {'sound': 'mu', 'as_in': 'moo'},
                 'メ': {'sound': 'me', 'as_in': 'makeup'},
                 'モ': {'sound': 'mo', 'as_in': 'more'},
+                },
+            'combo': {
+                'ミャ': {'sound': 'mya'},
+                'ミュ': {'sound': 'myu'},
+                'ミョ': {'sound': 'myo'},
                 }
             }
         },
@@ -258,6 +328,11 @@ COLUMNS = {
                 'ル': {'sound': 'ru', 'as_in': 'rule'},
                 'レ': {'sound': 're', 'as_in': 'realm'},
                 'ロ': {'sound': 'ro', 'as_in': 'road'},
+                },
+            'combo': {
+                'リャ': {'sound': 'rya'},
+                'リュ': {'sound': 'ryu'},
+                'リョ': {'sound': 'ryo'},
                 }
             }
         },

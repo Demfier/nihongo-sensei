@@ -21,7 +21,6 @@ need to guess its romaji (English transliteration of a kana)
     and ignore dakuten and combo hiraganas.
 
     **TODO:** Currently supports Hiragana but only main katakanas.
-    Add Katakana combo and dakuten support (See [#9][i9] [#10][i10])!
+    Add Katakana combo and dakuten support (See [#9][i9])!
 
 [i9]: https://github.com/Demfier/nihongo-sensei/issues/9
-[i10]: https://github.com/Demfier/nihongo-sensei/issues/10
